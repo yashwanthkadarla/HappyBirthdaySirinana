@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1b0f23">
+<title>Happy Birthday, Siri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="gate" class="gate" hidden>
+  <form id="gate-form">
+    <h2>Just for Siri</h2>
+    <label for="gate-in" id="gate-q"></label>
+    <input id="gate-in" type="text" autocomplete="off" required>
+    <button type="submit" class="btn">Open</button>
+    <p id="gate-err" class="gate-err" role="alert"></p>
+  </form>
+</div>
+
+<section id="cd" class="cd">
+  <div class="cd-inner">
+    <h1 id="cd-title"></h1>
+    <p id="cd-note" class="cd-note"></p>
+    <div id="cd-counter" class="counter" aria-label="Time left until the surprise opens"></div>
+    <p id="cd-teaser" class="cd-teaser"></p>
+    <button id="cd-open" class="btn big" hidden></button>
+  </div>
+</section>
+
+<div id="site" hidden>
+<header class="hero">
+  <div class="hero-text">
+    <p class="hello">Happy birthday</p>
+    <h1 id="hero-name">Siri</h1>
+    <p class="since">Since the day we met</p>
+    <div id="counter" class="counter" aria-hidden="true"></div>
+    <a class="scroll" href="#letter">Start here</a>
+  </div>
+  <div class="arch"><img id="hero-photo" alt="Siri" decoding="async"></div>
+</header>
+
+<main>
+  <section id="letter" class="section">
+    <h2>A letter for you</h2>
+    <button id="letter-btn" class="btn" aria-expanded="false" aria-controls="letter-wrap">Open your letter</button>
+    <div id="letter-wrap" class="letter-wrap">
+      <div class="letter-clip">
+        <article class="letter" id="letter-body"></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="story" class="section">
+    <h2>Two years, one story</h2>
+    <ol id="timeline" class="timeline"></ol>
+  </section>
+
+  <section id="gallery-section" class="section wide">
+    <h2>Our moments</h2>
+    <p class="lead">Tap any photo to see it larger.</p>
+    <div id="gallery" class="gallery"></div>
+    <p id="gallery-empty" class="empty" hidden>No photos found yet. Put them in the photos folder as 1.jpg, 2.jpg and so on.</p>
+  </section>
+
+  <section id="videos-section" class="section">
+    <h2>Watch us</h2>
+    <div id="videos" class="videos"></div>
+  </section>
+
+  <section id="finale" class="section finale">
+    <h2>One more thing</h2>
+    <button id="finale-btn" class="btn big"></button>
+    <p id="finale-msg" class="finale-msg" tabindex="-1" hidden></p>
+  </section>
+</main>
+
+<footer class="footer"><p id="footer-text"></p></footer>
+</div>
+
+<div id="lb" class="lb" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-nav lb-prev" aria-label="Previous photo">&#8249;</button>
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb-nav lb-next" aria-label="Next photo">&#8250;</button>
+</div>
+
+<canvas id="petals" class="petals" aria-hidden="true"></canvas>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
