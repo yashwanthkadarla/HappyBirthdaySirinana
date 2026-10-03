@@ -5,7 +5,7 @@
 window.SITE = {
   name: "Siri",
   fullName: "Siri Chandana",
-  from: "[Mr Yashwanth]",
+  from: "Mr Yashwanth",
 
   // The exact moment you two met (year-month-day T hour:minute:second).
   // The live counter at the top counts from here.
@@ -32,7 +32,7 @@ window.SITE = {
   },
 
   // Photo in the arch on the first screen.
-  heroPhoto: "photos/1.jpg",
+  heroPhoto: "photos/82.jpg",
 
   // Gallery: files must be named 1.jpg, 2.jpg ... up to photoCount.
   photoCount: 100,
@@ -57,23 +57,25 @@ window.SITE = {
 
   // Add, remove or reorder as you like. "photo" is optional.
   timeline: [
+    { date: "07 Nov 2025", title: "The day we met first time but not Happy",
+      text: "The day you hated me really.", photo: "" },
     { date: "12 Dec 2025", title: "The day we met first time happily",
-      text: "[The day you drive scooty with me in your back seat.]", photo: "" },
-    { date: "[10 Jan 2025]", title: "The first boguet i bought for you",
-      text: "[The bouquet you loved the most.]", photo: "" },
-    { date: "[10 Jan 2025]", title: "First pic movie",
-      text: "[The day when I only seen you but not movie.]", photo: "" },
-    { date: "[26 Jan 2025]", title: "The day we went long drive and shared our first choclate",
-      text: "[A day that i never going to forget.]", photo: "" },
+      text: "The day you drive scooty with me in your back seat.", photo: "photos/1.jpg" },
+    { date: "10 Jan 2025", title: "The first bouquet I bought for you",
+      text: "The bouquet you loved the most.", photo: "photos/3.jpg" },
+    { date: "10 Jan 2025", title: "First movie we seen",
+      text: "The day when I only seen you but not movie.", photo: "photos/4.jpg" },
+    { date: "26 Jan 2025", title: "The day we went long drive and shared our first choclate",
+      text: "A day that i never going to forget.", photo: "photos/8.jpg" },
     { date: "28 April 2025",
-      text: "The first day we went to temple.", photo: "" }
+      text: "The first time we went to temple together with so much of love.", photo: "photos/47.jpg" }
   ],
 
   // 2-3 videos. Put files in the videos folder (mp4, under ~30 MB each).
   videos: [
     { src: "videos/video1.mp4", title: "Hey my love", text: "", poster: "" },
-    { src: "videos/video2.mp4", title: "Heart Beat skipped", text: "", poster: "" },
-    { src: "videos/video3.mp4", title: "Get back babe", text: "", poster: "" }
+    { src: "videos/video2.mp4", title: "Skipped my Heart Beat", text: "", poster: "" },
+    { src: "videos/video3.mp4", title: "The beauty I never admired", text: "", poster: "" }
   ],
 
   finale: {
