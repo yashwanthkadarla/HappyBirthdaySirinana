@@ -17,7 +17,7 @@ window.SITE = {
   unlockAt: "2026-11-07T00:00:00+05:30",
 
   countdown: {
-    title: "Siri, something is waiting for you",
+    title: "Siri, something is waiting for you.",
     note: "It opens at midnight, 7 November.",
     openTitle: "Happy birthday, Siri",
     openButton: "Open your surprise"
