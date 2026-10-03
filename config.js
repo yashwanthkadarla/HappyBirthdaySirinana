@@ -61,13 +61,13 @@ window.SITE = {
       text: "The day you hated me really.", photo: "" },
     { date: "12 Dec 2025", title: "The day we met first time happily",
       text: "The day you drive scooty with me in your back seat.", photo: "photos/1.jpg" },
-    { date: "10 Jan 2025", title: "The first bouquet I bought for you",
+    { date: "10 Jan 2026", title: "The first bouquet I bought for you",
       text: "The bouquet you loved the most.", photo: "photos/3.jpg" },
-    { date: "10 Jan 2025", title: "First movie we seen",
+    { date: "10 Jan 2026", title: "First movie we seen",
       text: "The day when I only seen you but not movie.", photo: "photos/4.jpg" },
-    { date: "26 Jan 2025", title: "The day we went long drive and shared our first choclate",
+    { date: "26 Jan 2026", title: "The day we went long drive and shared our first choclate",
       text: "A day that i never going to forget.", photo: "photos/8.jpg" },
-    { date: "28 April 2025",
+    { date: "28 April 2026", title: "The first temple went",
       text: "The first time we went to temple together with so much of love.", photo: "photos/47.jpg" }
   ],
 
