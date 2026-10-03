@@ -283,7 +283,7 @@
     $("#cd-title").textContent = C.title;
     $("#cd-note").textContent = C.note;
 
-    $("#cd-teaser").textContent = "Hey Nani something special waiting inside only for you.";
+    $("#cd-teaser").textContent = "Hey Siri🤍, I know you are waiting for the surprise inside but please don't be excited that much, Love you💙😘✨.";
 
     var keys = ["days", "hours", "minutes", "seconds"], cells = {};
     var wrap = $("#cd-counter");
