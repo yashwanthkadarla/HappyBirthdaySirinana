@@ -14,7 +14,7 @@ window.SITE = {
   // THE BIG ONE: the site stays locked until this exact moment.
   // Midnight at the start of 7 November 2026, India time (+05:30).
   // Do NOT change this, except to test (see README), then change it back.
-  unlockAt: "2026-10-03T00:00:00+05:30",
+  unlockAt: "2026-10-02T00:00:00+05:30",
 
   countdown: {
     title: "Siri, something is waiting for you",
