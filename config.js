@@ -28,14 +28,14 @@ window.SITE = {
   // visitors out, it is not real security.
   gate: {
     question: "What was the date we first met actually? (dd/mm/yyyy)",
-    answer: "07/11/2026"
+    answer: "07/11/2025"
   },
 
   // Photo in the rectangle on the first screen.
   heroPhoto: "photos/82.jpg",
 
   // Gallery: files must be named 1.jpg, 2.jpg ... up to photoCount.
-  photoCount: 100,
+  photoCount:100,
   photoExt: "jpg",
   // Optional captions by photo number.
   captions: {
