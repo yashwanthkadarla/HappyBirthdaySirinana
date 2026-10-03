@@ -1,0 +1,36 @@
+/* ===== Balloons + emojis add-on ===== */
+
+/* swinging gold balloons on the countdown (landing) screen */
+.cd{overflow:hidden}
+.cd-inner{position:relative;z-index:2}
+.balloons{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:1}
+.cluster{--s:.68;position:absolute;bottom:-4px;width:calc(160px * var(--s));height:0}
+@media(min-width:700px){.cluster{--s:1}}
+.cluster.left{left:2%}
+.cluster.right{right:2%}
+.balloon{position:absolute;bottom:0;left:calc(var(--x) * 1px * var(--s));width:calc(var(--w) * 1px * var(--s));
+  transform-origin:50% 100%;animation:swing var(--d) ease-in-out var(--dl) infinite alternate;
+  filter:drop-shadow(0 8px 12px rgba(0,0,0,.35))}
+.balloon svg,.rise-in svg{display:block;width:100%;height:auto;overflow:visible}
+@keyframes swing{from{transform:rotate(calc(var(--a) * -1))}to{transform:rotate(var(--a))}}
+
+/* balloons that float up when the surprise opens */
+.rise-layer{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:45}
+.rise{position:absolute;bottom:-360px;animation:rise var(--rd) ease-in var(--rl) both}
+.rise-in{transform-origin:50% 100%;--a:8deg;animation:swing 2.4s ease-in-out infinite alternate;filter:drop-shadow(0 6px 10px rgba(0,0,0,.3))}
+@keyframes rise{to{transform:translate(var(--sx),-145vh)}}
+
+/* emojis */
+#cd-title::after{content:"\00a0\1F381"}
+.cd.open #cd-title::after{content:"\00a0\1F389"}
+#cd-open::after{content:"\00a0\1F388"}
+.hello::after{content:"\00a0\1F382"}
+#letter h2::after{content:"\00a0\1F48C"}
+#story h2::after{content:"\00a0\2728"}
+#gallery-section h2::after{content:"\00a0\1F4F8"}
+#videos-section h2::after{content:"\00a0\1F3AC"}
+#finale h2::after{content:"\00a0\1F388"}
+#finale-btn::after{content:"\00a0\1F381"}
+.finale-msg::after{content:"\00a0\1F49B"}
+.letter .signoff::after{content:"\00a0\2764\FE0F"}
+.footer p::after{content:"\00a0\1F49B"}
