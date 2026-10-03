@@ -283,12 +283,7 @@
     $("#cd-title").textContent = C.title;
     $("#cd-note").textContent = C.note;
 
-    var bits = [];
-    if (S.photoCount > 0) bits.push(plural(S.photoCount, "photo"));
-    if ((S.videos || []).length) bits.push(plural(S.videos.length, "video"));
-    bits.push("one letter");
-    var last = bits.pop();
-    $("#cd-teaser").textContent = (bits.length ? bits.join(", ") + " and " : "") + last + " are waiting behind this door.";
+    $("#cd-teaser").textContent = "Hey Nani something special waiting inside only for you.";
 
     var keys = ["days", "hours", "minutes", "seconds"], cells = {};
     var wrap = $("#cd-counter");
