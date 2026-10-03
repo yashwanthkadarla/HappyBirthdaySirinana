@@ -14,7 +14,7 @@ window.SITE = {
   // THE BIG ONE: the site stays locked until this exact moment.
   // Midnight at the start of 7 November 2026, India time (+05:30).
   // Do NOT change this, except to test (see README), then change it back.
-  unlockAt: "2026-11-10T00:00:00+05:30",
+  unlockAt: "2026-11-07T00:00:00+05:30",
 
   countdown: {
     title: "Siri, something is waiting for you",
@@ -28,10 +28,10 @@ window.SITE = {
   // visitors out, it is not real security.
   gate: {
     question: "What was the date we first met actually? (dd/mm/yyyy)",
-    answer: "07/11/2025"
+    answer: ""
   },
 
-  // Photo in the arch on the first screen.
+  // Photo in the rectangle on the first screen.
   heroPhoto: "photos/82.jpg",
 
   // Gallery: files must be named 1.jpg, 2.jpg ... up to photoCount.
