@@ -27,15 +27,15 @@ window.SITE = {
   // Pick a question only Siri can answer. Note: this keeps casual
   // visitors out, it is not real security.
   gate: {
-    question: "What was the date we first met? (dd/mm/yyyy)",
-    answer: ""
+    question: "What was the date we first met actually? (dd/mm/yyyy)",
+    answer: "07/11/2025"
   },
 
   // Photo in the arch on the first screen.
   heroPhoto: "photos/1.jpg",
 
   // Gallery: files must be named 1.jpg, 2.jpg ... up to photoCount.
-  photoCount: 115,
+  photoCount: 100,
   photoExt: "jpg",
   // Optional captions by photo number.
   captions: {
@@ -57,7 +57,7 @@ window.SITE = {
 
   // Add, remove or reorder as you like. "photo" is optional.
   timeline: [
-    { date: "12 Dec 2025", title: "The day we met first time",
+    { date: "12 Dec 2025", title: "The day we met first time happily",
       text: "[The day you drive scooty with me in your back seat.]", photo: "" },
     { date: "[10 Jan 2025]", title: "The first boguet i bought for you",
       text: "[The bouquet you loved the most.]", photo: "" },
