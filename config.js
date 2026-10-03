@@ -28,7 +28,7 @@ window.SITE = {
   // visitors out, it is not real security.
   gate: {
     question: "What was the date we first met actually? (dd/mm/yyyy)",
-    answer: ""
+    answer: "07/11/2026"
   },
 
   // Photo in the rectangle on the first screen.
