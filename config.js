@@ -78,6 +78,12 @@ window.SITE = {
     { src: "videos/video3.mp4", title: "The beauty I never admired 😍", text: "", poster: "" }
   ],
 
+bunnyWishes: [
+    "Happy Birthday, Siri! 🎂",
+    "This wishes is from your Bunny Bava",
+    "Love you always 💛"
+  ],
+
   finale: {
     button: "Tap for one last surprise",
     message: "Here's to many more birthdays together, my Siri 🥰. You are my favourite person👑, my best friend😘, and my forever."
