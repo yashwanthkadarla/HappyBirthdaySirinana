@@ -75,7 +75,10 @@ window.SITE = {
   videos: [
     { src: "videos/video1.mp4", title: "Hey my love 💕", text: "", poster: "" },
     { src: "videos/video2.mp4", title: "Skipped my Heart Beat 💓", text: "", poster: "" },
-    { src: "videos/video3.mp4", title: "The beauty I never admired 😍", text: "", poster: "" }
+    { src: "videos/video3.mp4", title: "The beauty I never admired 😍", text: "", poster: "" },
+    { src: "videos/video4.mp4", title: "🩵🌈", text: "", poster: "" },
+    { src: "videos/video5.mp4", title: "🌙☃️🍰", text: "", poster: "" },
+    { src: "videos/video6.mp4", title: "🤍💝", text: "", poster: "" }
   ],
 
 bunnyWishes: [
@@ -83,7 +86,7 @@ bunnyWishes: [
     "This wishes is from your Bunny Bava",
     "Love you always 💛"
   ],
-
+  music: { src: "bgm.mp3", volume: 0.35 },
   finale: {
     button: "Tap for one last surprise",
     message: "Here's to many more birthdays together, my Siri 🥰. You are my favourite person👑, my best friend😘, and my forever."
