@@ -78,7 +78,7 @@ window.SITE = {
     { src: "videos/video3.mp4", title: "The beauty I never admired 😍", text: "", poster: "" },
     { src: "videos/video4.mp4", title: "🩵🌈", text: "", poster: "" },
     { src: "videos/video5.mp4", title: "🌙☃️🍰", text: "", poster: "" },
-    { src: "videos/video6.mp4", title: "🤍💝", text: "", poster: "" }
+    { src: "videos/video6.mp4", title: "🤍💝", text: "", poster: "" },
   ],
 
 bunnyWishes: [
