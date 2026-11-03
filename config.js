@@ -88,6 +88,7 @@ bunnyWishes: [
   ],
   music: { src: "bgm.mp3", volume: 0.35 },
 videoSlideSeconds: 6,
+videoAutoSlide: true,
   finale: {
     button: "Tap for one last surprise",
     message: "Here's to many more birthdays together, my Siri 🥰. You are my favourite person👑, my best friend😘, and my forever."
