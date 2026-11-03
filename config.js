@@ -9,12 +9,12 @@ window.SITE = {
 
   // The exact moment you two met (year-month-day T hour:minute:second).
   // The live counter at the top counts from here.
-  metDate: "2025-10-29T00:00:00",
+  metDate: "2025-11-07T00:00:00",
 
   // THE BIG ONE: the site stays locked until this exact moment.
   // Midnight at the start of 7 November 2026, India time (+05:30).
   // Do NOT change this, except to test (see README), then change it back.
-  unlockAt: "2026-10-29T00:00:00+05:30",
+  unlockAt: "2026-11-07T00:00:00+05:30",
 
   countdown: {
     title: "Siri👑, something is waiting for you.",
